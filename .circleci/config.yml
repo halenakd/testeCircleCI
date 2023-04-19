@@ -5,5 +5,5 @@ jobs:
     steps:
       - checkout
       - run: mkdir -p build
-      - run: cd build && cmake .. && make
+      - run: cd build && make .. && ./myproject
       - run: cd build && ctest
