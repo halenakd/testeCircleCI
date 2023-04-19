@@ -1,8 +1,6 @@
 version: 2
 jobs:
   build:
-    docker:
-      - image: circleci/gcc:9.4.0
     working_directory: ~/project
     steps:
       - checkout
