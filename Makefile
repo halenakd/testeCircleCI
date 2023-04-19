@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-Wall -Wextra -pedantic -std=c99
 
-SRC=helloworld.c helloblumenau.c
+SRC=helloworld.c
 OBJ=$(SRC:.c=.o)
 
 TARGET=myproject
